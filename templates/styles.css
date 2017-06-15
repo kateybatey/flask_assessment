@@ -1,0 +1,16 @@
+
+input[type=text] {
+    background-color: yellow; 
+}
+
+.button {
+    background-color: yellow;
+}
+
+p {
+    border: solid;
+}
+
+.last_name {
+    font-weight: bold;
+}

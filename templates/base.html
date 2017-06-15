@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <title>{% block title %}Engineering Application{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="http:code.jquery.com/jquery.js"></script>
+   </head>
+  <body>
+    {% block content %}BODY CONTENT GOES HERE{% endblock %}
+      <footer> Copyright 2017 by me! </footer>
+      {% endblock %}
+  </body>
+</html>
+
+<!> used flask doumentation found here: http://flask.pocoo.org/docs/0.12/patterns/templateinheritance/</!>
